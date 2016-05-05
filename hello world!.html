@@ -7,16 +7,18 @@
 	</head>
 
 	<body>
-		<div id="app">
-		  {{ message }}
+		<div id="app" >
+		    
+		    <input v-model="mess">{{mess}}
+		    <p v-if="greeting">ABC</p>
 		</div>
 
 		<script>
-			new Vue({
-		  el: '#app',
-		  data: {
-		    message: 'Hello Vue.js!'
-		  }
+			var exampleVM2 = new Vue({
+		    el: '#app',
+		    data: {
+		        mess: 'Hello Vue.js!'
+		    }
 		})
 		</script>
 	</body>
