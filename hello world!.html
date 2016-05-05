@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
-	<p>hello world!!</p>
-	<p>It is frist time use github!</p>
-	<p>creat new branch</p>
-	<p>CMD 操作git测试</p>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<script src="my-project/node_modules/vue/dist/vue.js"></script>
+	</head>
+
+	<body>
+		<div id="app">
+		  {{ message }}
+		</div>
+
+		<script>
+			new Vue({
+		  el: '#app',
+		  data: {
+		    message: 'Hello Vue.js!'
+		  }
+		})
+		</script>
+	</body>
 </html>
