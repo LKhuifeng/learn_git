@@ -12,3 +12,7 @@
 <p>vue是什么，MVVM是什么</p>
 <p>使用vue.js进行helloworld等基本操作</p>
 <p>v-if用不了，还不理解vue是如何工作的</p>
+<br>
+<p>16_05_08</p>
+<p>写了两个简单的组件button和form</p>
+<p>需要了解webpack和.vue文件还有nodejs的export和request</p>
