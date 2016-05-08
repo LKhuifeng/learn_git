@@ -3,21 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>my-project</title>
+    <link rel="stylesheet" href="css/button.css">
   </head>
   <body>
-    <app></app>
-    <!-- built files will be auto injected -->
-    <!-- <div id="app">
-    	  <p>{{ message }}</p>
-    	  <input v-model="message">
-    	</div>-->
-    	<script>
-    		var vm = new Vue({
-    		  el: '#app',
-    		  data: {
-    		    message: 'Hello Vue.js!'
-    		  }
-    		})
-    	</script> 
+    <script src="./node_modules/vue/dist/vue.js"></script>
+
+	<div id="app">
+		<div id="button">
+		  <my-button msg = "lg" content = "lg"></my-button>
+		  <my-button msg = "red" content = "hello"></my-button>
+		  <my-button msg = "blue" ></my-button>
+		  <my-button msg = "" ></my-button>
+		</div>
+	</div>
+
+	<script src="./js/VUE_button.js"></script>
   </body>
 </html>
