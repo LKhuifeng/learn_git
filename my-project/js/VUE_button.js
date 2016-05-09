@@ -1,4 +1,3 @@
-
 var Mybutton = Vue.extend({
 	props: ['msg','content'],
     template: '<button class="bt_{{ msg }}">{{ content }}</button>'

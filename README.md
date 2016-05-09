@@ -5,6 +5,7 @@
 <p>git checkout </p>
 <p>git add<p>
 <p>git commit</p>
+<p>git push</p>
 <p>使用客户端操作更方便</p>
 <br>
 <p>16_05_05</p>
