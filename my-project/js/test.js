@@ -1,6 +1,6 @@
 var Myhead = Vue.extend({
 	props: ['imgsrc','alt','msg'],
-    template: '<div class="{{msg}}"><img src={{imgsrc}} alt="{{alt}}" id="{{msg}}"></div>'
+    template: '<div class="{{msg}}"><img v-bind:src="imgsrc" alt="{{alt}}" id="{{msg}}"></div>'
 })
 
 // 注册

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ES6_learn</title>
+</head>
+<body>
+	<h1>变量</h1>
+	<p>let 只在所在区块生效--先声明否则不可用--同一区块不可重复声明</p>
+	<br>
+	<p>const 声明常量--不可变--对象可变本身不可变</p>
+	<br>
+	<p>export 将变量暴露出去，可被其他文件请求获得</p>
+	<p>import 请求其他文件中的变量--写法：import * as var from './src'</p>
+	<br>
+	<p>	window.var 全球变量</p>
+	<p>声明变量时不能用圆括号，只有赋值的时候才可以用圆括号 --如[(b)] = [3]; // 正确</p>
+	
+	<h1>结构</h1>
+	<p>赋值 var[a,b,c] = [1,2,3]--解构等号右边必须写成数组，如上</p>
+	<br>
+	<p>yield 迭代器，遇到即终止返回值，如果继续请求则从终端处继续运行 </p>
+	<br>	
+	<p>解构可以赋默认值 var [foo =true] = [] foo//true</p>
+	<p>对象结构 例子：</p>
+	<p>var { foo: baz } = { foo: "aaa", bar: "bbb" };</p>
+	<p>baz // "aaa"</p>
+	<p>foo // error: foo is not defined</p>
+	<p>先找到同名属性，然后再赋给对应的变量。真正被赋值的是后者，而不是前者。</p>
+	<br>
+	<p>嵌套解构对象</p>
+<!-- 	var obj = {
+		  p: [
+		    "Hello",
+		    { y: "World" }
+		  ]
+		}; -->
+<!-- 	var { p: [x, { y }] } = obj;
+		x // "Hello"
+		y // "World" -->
+	<p>要理解上面代码中p是方法，不会被赋值。x和y是变量</p>
+	<br>
+	<h1>字符串扩展</h1>
+	<p>展示无法理解</p>
+	<br>
+	<h1>正则扩展</h1>
+</body>
+</html>

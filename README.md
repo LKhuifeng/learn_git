@@ -17,3 +17,7 @@
 <p>16_05_08</p>
 <p>写了两个简单的组件button和form</p>
 <p>需要了解webpack和.vue文件还有nodejs的export和request</p>
+<br>
+<p>16_05_11</p>
+<p>正则表达式，重新开始开ES6</p>
+<p>对于ES6内容中扩展内容很多很难理解</p>
