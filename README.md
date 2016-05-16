@@ -21,3 +21,7 @@
 <p>16_05_11</p>
 <p>正则表达式，重新开始开ES6</p>
 <p>对于ES6内容中扩展内容很多很难理解</p>
+<br>
+<p>js学习:http://www.liaoxuefeng.com/</p>
+<p>函数：map,set,reduce,for...of,forEach,filter,sort</p>
+<p>闭包,箭头函数</p>
