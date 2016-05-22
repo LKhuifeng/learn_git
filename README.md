@@ -34,4 +34,49 @@ re.exec('102300'); // ['102300', '102300', '']
 var re = /^(\d+?)(0*)$/;
 re.exec('102300'); // ['102300', '1023', '00'] -->
 <p>全局匹配</p>
-<p>json 不理解</p>
+<p>json js的一种结构,使js数据能让其他语言解析</p>
+<p>16_05_19~22</p>
+<p>__proto__ 对象继承  或者使用 Object.create()创建一个相同的对象</p>
+<!-- <p>原型继承</p>
+function PrimaryStudent(props) {
+    // 调用Student构造函数，绑定this变量:
+    Student.call(this, props);
+    this.grade = props.grade || 1;
+} -->
+<p>ES6的class继承</p>
+<!-- class Student {
+    constructor(name) {
+        this.name = name;
+    }
+
+    hello() {
+        alert('Hello, ' + this.name + '!');
+    }
+} -->
+<p>window. ---浏览器 navigator. ---显示浏览器内容</p>
+<p>screen. ---窗口信息 location. ---URL</p>
+<p>document.    .children .lastElementChild    .style</p>
+<p>.appendChild     .removeChild</p>
+<p>密码账号表单 </p>
+<!-- var
+   username = document.querySelect("#username"),
+   pwd1 = document.querySelect("#password"),
+   pwd2 = document.querySelect("password-2"),
+   user_re = /^\w{3,10}/,
+   pwd_re = /.{6,20}/;
+   if (!user_re.test(username.value)) {
+      alert("用户名必须是3-10位英文字母或数字");
+      return false;
+   } else if (!pwd_re.test(pwd1.value)) {
+      alert("密码长度必须是6-20位");
+      return false;
+   } else if (pwd1.value != pwd2.value) {
+      alert("两次密码必须一致");
+      return false;
+   }
+   return true;
+} -->
+<p>操作文件 ----还不懂使用</p>
+<p>var request = new XMLHttpRequest(); // 新建XMLHttpRequest对象
+</p>
+<p>request.status  request.responseText等..... request返回了服务器给的数据</p>
