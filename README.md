@@ -80,3 +80,8 @@ function PrimaryStudent(props) {
 <p>var request = new XMLHttpRequest(); // 新建XMLHttpRequest对象
 </p>
 <p>request.status  request.responseText等..... request返回了服务器给的数据</p>
+<br>
+<p>5_26日</p>
+<p>webpack入门中</p>
+<p>primise看不太懂</p>
+<p>canvas</p>
