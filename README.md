@@ -85,3 +85,14 @@ function PrimaryStudent(props) {
 <p>webpack入门中</p>
 <p>primise看不太懂</p>
 <p>canvas</p>
+<br>
+<p>5_28日</p>
+<p>webpack.config.js文件简化打包过程，直接运行webpack就可以打包</p>
+<p>bundle.js为打包文件</p>
+<br>
+<p>7.18</p>
+<p>sass :@import "" @mixin  @include  @content 接受内容  !default</p>
+<p>二位数组$px: 5px 10px, 20px 30px;</p>
+<p>nth(,)</p>
+<p>@each in</p>
+<p>@at-root 跳出选择器</p>
