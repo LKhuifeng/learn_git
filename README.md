@@ -96,3 +96,36 @@ function PrimaryStudent(props) {
 <p>nth(,)</p>
 <p>@each in</p>
 <p>@at-root 跳出选择器</p>
+<br>
+<p>7.19</p>
+-ES6
+  -let const symbol() 职责分别是块变量，常量，唯一变量
+  -变量名和变量值相同时可以使用简写形式
+  -解构
+  -可设置默认值和不定个数的参数，参数中可以是数组
+  -function*(){yield}遍历结构
+  -for( of ) 遍历读键值 for( in ) 遍历读键名 arr(index:data)
+  -set() Map()
+  -箭头函数 x => x * x
+  -modules 模块部分 export import
+  -WeakMap + WeakSet防止泄露键名
+  -proxy(target,handler)  target处理对象  handler处理方法
+-sass
+  -import ""   $ 变量  !default  默认值
+  -二维数组     @each...in...{}
+  -嵌套   at-root 跳出嵌套
+  -mixin include
+  -content
+  -lighten(color,%)  darken(,)
+  -三目判断if( , , )
+  -for var from ... through/to ...{}
+  -each 内容 in 对象 {}
+-VUE
+  - v-bind简写： 绑定数据
+  - v-on简写@ 监听事件        方法事件处理器
+  - v-if是否加载            条件渲染
+  - {{*}}捆绑一次不再该
+  - $watch(date,function){}
+  - v-show 改变dom样式来显示或者隐藏  
+  - v-for 加载数据渲染页面      列表渲染
+  - v-model 双向数据绑定
